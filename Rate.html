@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+  		<title>Rate!</title>
+  		<meta charset="UTF-8">
+	</head>
+
+	<body>
+   <style type="text/css">
+   body{
+         background-color:#6D6868;
+         margin:200px 200px 200px 200px;
+   }
+   </style>
+
+  		<h1 style="color:#FFFFFF;"><font face="Arial">Rate!</font></h1>
+
+		<form action="DisplayRate.php" id="form1" name="form1" method="POST">
+			<h3 style="color:#FFFFFF;">You are taking this class for...</h3>
+				<lable style="color:#FFFFFF;">
+					<input type="radio" name="Poll" value="major" id="Poll1" />
+					Major
+				</lable>
+
+				<lable style="color:#FFFFFF;">
+					<input type="radio" name="Poll" value="minor" id="Poll2" />
+					Minor
+				</lable>
+
+				<lable style="color:#FFFFFF;">
+					<input type="radio" name="Poll" value="other" id="Poll3" />
+					Other
+				</lable>
+            <br><br>
+
+  			<label style="color:#FFFFFF;"> Comment: <br>
+  				<textarea name="Comment" class="Input" style="width: 300px"></textarea>
+  			</label>
+  			<br><br>
+
+        	<input type="submit" name="Submit" value="Submit" class="Submit">
+		</form>
+
+	</body>
+
+</html>
